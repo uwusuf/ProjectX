@@ -23,3 +23,8 @@ li {
     padding-left: 500px;
     
 }
+.screen__image{
+    object-fit: cover;
+    
+
+}
