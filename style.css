@@ -13,6 +13,9 @@ li {
     margin-left: 40px;
     margin-top: 10px;
 }
+.header{
+    position: absolute;
+}
 .menu{
     display:flex;
     margin-left: 300px;
@@ -23,8 +26,31 @@ li {
     padding-left: 500px;
     
 }
+.bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.bg__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.screen {
+    height: 100vh;
+
+}
+
+
 .screen__image{
     object-fit: cover;
     ;
 
+}
+.rectangle{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: auto;
 }
