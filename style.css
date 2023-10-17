@@ -75,4 +75,5 @@ li {
 
 .text__top {
   display: flex;
+position: absolute;
 }
