@@ -74,12 +74,5 @@ li {
 }
 
 .text__top {
-    display: flex;
-    position
-    color: #000;
-    font-family: Archangelsk;
-    font-size: 62px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  display: flex;
 }
