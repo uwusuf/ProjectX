@@ -13,44 +13,73 @@ li {
     margin-left: 40px;
     margin-top: 10px;
 }
-.header{
+
+.header {
     position: absolute;
 }
-.menu{
-    display:flex;
+
+.menu {
+    display: flex;
     margin-left: 300px;
     margin-top: 30px;
 }
-.menu__links{
+
+.menu__links {
     display: flex;
     padding-left: 500px;
-    
+
 }
+
 .bg {
     position: absolute;
     width: 100%;
     height: 100%;
     z-index: -1;
 }
-.bg__img{
+
+.bg__img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
+
 .screen {
+    display: flex;
     height: 100vh;
+    align-items: flex-end;
+    justify-content: end;
 
 }
 
 
-.screen__image{
+.screen__image {
     object-fit: cover;
     ;
 
 }
-.rectangle{
+
+.rectangle {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     margin-top: auto;
+    margin-right: 280px;
+}
+
+.frame {
+    display: flex;
+    position: absolute;
+    margin-right: 530px;
+    margin-bottom: 70px;
+}
+
+.text__top {
+    display: flex;
+    position
+    color: #000;
+    font-family: Archangelsk;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
