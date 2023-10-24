@@ -1,3 +1,7 @@
+@font-face{
+    font-family: "front__text";
+    src: url(SRC/Phone/ofont.ru_Archangelsk.ttf);
+}
 * {
     margin: 0;
     padding: 0;
@@ -59,21 +63,37 @@ li {
 }
 
 .rectangle {
+    background-color: yellow;
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    margin-top: auto;
-    margin-right: 280px;
+    width: 600px;
+    height: 300px;
+    margin-right: 300px;
 }
 
 .frame {
     display: flex;
     position: absolute;
-    margin-right: 530px;
     margin-bottom: 70px;
 }
 
-.text__top {
-  display: flex;
-position: absolute;
+.headline {
+    padding: 10px;
+    display: flex;
+    font-family:"front__text",Arial, Helvetica, sans-serif;
+    font-size: 62px;
+    font-weight: 400;
+    line-height: 63px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.btn {
+
+    padding: 30px;
+    background-color: black;
+    color: yellow;
+    font-size: 20px;
+    display: flex;
+    text-decoration: none;
+    width: max-content;
 }
