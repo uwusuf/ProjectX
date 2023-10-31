@@ -65,19 +65,21 @@ li {
 .rectangle {
     background-color: yellow;
     display: flex;
-    width: 600px;
-    height: 300px;
-    margin-right: 300px;
+    width: 30%;
+    margin-right: 360px;
+    clip-path: polygon(10% 0, 100% 0, 100% 20%, 100% 90%, 90% 100%, 0 100%, 0% 80%, 0 10%);
+}
+.rectangle__content {
+    padding: 30px;
 }
 
 .frame {
     display: flex;
     position: absolute;
-    margin-bottom: 70px;
 }
 
 .headline {
-    padding: 10px;
+    /* padding: 10px; */
     display: flex;
     font-family:"front__text",Arial, Helvetica, sans-serif;
     font-size: 62px;
@@ -85,18 +87,32 @@ li {
     line-height: 63px;
     letter-spacing: 0em;
     text-align: left;
-    margin-left: 50px;
-    margin-top: 30px
 }
 
 .btn {
-
+margin-top: 20px;
     padding: 30px;
     background-color: black;
-    color: yellow;
-    font-size: 20px;
+    color: #F8F200;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
     display: flex;
     text-decoration: none;
     width: max-content;
-    margin-left: 50px;
+    line-height: 40px; 
 }
+.next__screen {
+
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-auto-flow: dense;
+}
+.gallery__big {
+    grid-row: 2 span;
+    grid-column: 2 span;
+}
+
